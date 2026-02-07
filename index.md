@@ -1,5 +1,5 @@
 ---
-title: Welcome Research Notebooks Project
+title: Welcome to ERNs Project
 search_exclude: true
 sidebar: false
 ---  
