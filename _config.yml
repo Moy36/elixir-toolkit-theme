@@ -89,7 +89,7 @@ theme_variables:
     # headings: 'h2'
   # topnav:
     # theme: light
-    brand_logo: assets/img/main_logo.png
+    brand_logo: assets/img/main_logo.svg
     # search: true
     # github: true
     # twitter: false
