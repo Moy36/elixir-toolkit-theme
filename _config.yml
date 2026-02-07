@@ -4,6 +4,8 @@ title: Research Notebooks
 topnav_title: Research Notebooks
 # Optional: this appears on the top navigation bar next to the main_logo.svg icon
 
+baseurl: /hahaha
+
 # topnav_banner: "ELIXIR toolkit theme is currently under development and may change at any point - it is not meant for production use"
 # Optional: a banner message to display to users on all pages
 
