@@ -7,7 +7,7 @@ permalink: /ern-attributes
 
 This page lists the attribute definitions used in the Research Notebooks project.
 
-## Attribute List
+## Attribute Table
 
 
 <table class="ern-table">
