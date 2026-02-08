@@ -9,12 +9,20 @@ This page lists the attribute definitions used in the Research Notebooks project
 
 ## Attribute List
 
-| ID | Attribute | Description |
-|----|----------|-------------|
-{% for row in site.data.ERNAttributeDefinition %}
-| {{ row["ID"] }} | {{ row["Name of Attributes"] }} | {{ row["Description/expected content"] | replace: "\n", " " }} |
-{% endfor %}
-{% endcapture %}
 
-{{ table | markdownify }}
+<table>
+  {% for row in site.data.ERNAttributeDefinition %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
