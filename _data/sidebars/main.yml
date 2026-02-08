@@ -13,7 +13,7 @@ subitems:
   - title: ERN Requirments
     subitems:
       - title: Functional Requirments (FRs)
-        url: /getting_started
+        url: /ern-attributes
       - title: FRs Engagements
         url: /markdown_cheat_sheet
       - title: Non-Functional Requirments (NFRs)
