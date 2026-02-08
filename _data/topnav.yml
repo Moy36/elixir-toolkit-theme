@@ -5,13 +5,13 @@ subitems:
   url: /
 - title: About
   url: /about
-- title: Example dropdown
+- title: ERN Requirment
   subitems:
-  - title: Events
+  - title: Functional Requirments (FRs)
     url: /events
-  - title: News
+  - title: FRs Engagements
     url: /news
   - hr: true
-  - title: Contributors
+  - title: Non-Functional Requirments (NFRs)
     url: /contributors
     
