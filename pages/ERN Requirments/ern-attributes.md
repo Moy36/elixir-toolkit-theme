@@ -13,8 +13,8 @@ This page lists the attribute definitions used in the Research Notebooks project
 <table class="ern-table">
   <colgroup>
     <col style="width: 15%;">
-    <col style="width: 25%;">
-    <col style="width: 60%;">
+    <col style="width: 30%;">
+    <col style="width: 55%;">
   </colgroup>
 
   {% for row in site.data.ERNAttributeDefinition %}
