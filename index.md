@@ -1,6 +1,7 @@
 
 
 ---
+layout: home
 title: Welcome to ERNs Project
 search_exclude: true
 sidebar: false
